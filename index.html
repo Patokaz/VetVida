@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vet Vidas - Clínica Veterinária e Pet Shop</title>
+  <meta name="description"
+    content="Clínica veterinária e pet shop na Zona Norte de São Paulo. Banho e tosa, consultas, vacinas e muito mais para o seu pet.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="IMG/Icon-VetVidas.png">
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MZ8Z3QVS');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZ8Z3QVS" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <main>
+    <section class="hero-slider desktop" id="heropage">
+      <div class="slides">
+        <div class="slide active" style="background-image: url('IMG/hero-page/Primeira.jpg');">
+        </div>
+        <div class="slide" style="background-image: url('IMG/hero-page/Quarta.jpg');">
+        </div>
+        <div class="slide" style="background-image: url('IMG/hero-page/Quinta.jpg');">
+        </div>
+      </div>
+      <div class="controls">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="hero-slider mobile" id="heropage-mobile">
+      <div class="slides">
+        <div class="slide active"
+          style="background-image: url('IMG/hero-page/20250809_1752_Fachada\ para\ Site\ Mobile_remix_01k289j51deb3bah1a1800dwk8.png');">
+        </div>
+        <div class="slide" style="background-image: url('IMG/hero-page/Segunda.jpg');"></div>
+        <div class="slide" style="background-image: url('IMG/hero-page/Terceira.jpg');"></div>
+        <div class="slide" style="background-image: url('IMG/hero-page/Sexta.jpg');"></div>
+        <div class="slide" style="background-image: url('IMG/hero-page/Setima.jpg');"></div>
+        <div class="slide" style="background-image: url('IMG/hero-page/Oitava.jpg');"></div>
+      </div>
+      <div class="controls">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+    <header class="menu">
+      <a class="content-menu" href="#clinica">Clínica</a>
+      <a class="content-menu" href="#petshop">Pet Shop</a>
+      <a class="content-menu" href="#quemsomos">Quem Somos</a>
+      <a class="content-menu" href="#footer">Fale Conosco</a>
+    </header>
+
+    <section class="apresentacao">
+      <img src="IMG/Icon-VetVidas.png" alt="Logo VetVidas" />
+      <div style="display: flex; flex-direction: column; gap: 25px;">
+        <h2>
+          Clínica Veterinária Vet Vidas Brasilândia | Atendimento Veterinário em SP</h2>
+        <h2>
+          Cuidado e Saúde para seu Pet na Vila Nova Cachoeirinha
+        </h2>
+      </div>
+    </section>
+    <h1 style="background-color: #bbe4ea; padding: 5rem" id="clinica">
+      Exames Veterinários e Consultas na VetVidas!
+    </h1>
+    <section class="container-clinica">
+      <img src="IMG/gato.png" alt="Gato" class="bg-img">
+      <div class="esquerda-clinica">
+        <button data-target="cirurgias">Cirurgias</button>
+        <button data-target="ecocardiograma">Ecocardiograma</button>
+        <button data-target="eletrocardiograma">Eletrocardiograma</button>
+        <button data-target="hemograma">Hemograma</button>
+        <button data-target="internacoes">Internações</button>
+        <button data-target="radiografia">Radiografia</button>
+        <button data-target="ultrassonografia">Ultrassonografia</button>
+        <button data-target="vacinas">Vacinas</button>
+        <button data-target="endoscopia">Endoscopia</button>
+      </div>
+      <div class="direita-clinica">
+        <div id="cirurgias" class="tab">
+          <h3>Cirurgias</h3>
+          <p>Realizamos procedimentos cirúrgicos diversos, desde os mais simples até os de alta complexidade. Nossa
+            clínica possui centro cirúrgico equipado e uma equipe especializada para garantir a segurança e o sucesso de
+            cada procedimento. A castração também é realizada por nossa equipe, oferecendo um procedimento seguro e com
+            todos os cuidados necessários para a saúde do seu pet.</p>
+        </div>
+        <div id="hemograma" class="tab">
+          <h3>Hemograma</h3>
+          <p>O hemograma veterinário é um exame de sangue essencial para avaliar a saúde geral de cachorros e gatos.
+            Detecta anemias, infecções e inflamações, sendo crucial para diagnósticos precisos na nossa clínica na zona
+            norte.</p>
+        </div>
+        <div id="ecocardiograma" class="tab">
+          <h3>Ecocardiograma</h3>
+          <p>Realizamos ecocardiograma em cães e gatos para avaliar a saúde do coração. Este exame de ultrassom cardíaco
+            permite identificar doenças valvulares, musculares e congênitas, garantindo o cuidado cardiológico do seu
+            pet.</p>
+        </div>
+        <div id="eletrocardiograma" class="tab">
+          <h3>Eletrocardiograma</h3>
+          <p>O eletrocardiograma (ECG) veterinário registra a atividade elétrica do coração, auxiliando no diagnóstico
+            de arritmias e outras condições cardíacas. Indispensável para a saúde cardiovascular de gatos e cachorros.
+          </p>
+        </div>
+
+        <div id="radiografia" class="tab">
+          <h3>Radiografia</h3>
+          <p>A radiografia veterinária (Raio-X) é fundamental para diagnosticar fraturas, problemas ósseos, doenças
+            respiratórias e abdominais em cães e gatos. Um exame rápido e eficaz para a saúde do seu animal de estimação
+            em São Paulo.</p>
+        </div>
+        <div id="ultrassonografia" class="tab">
+          <h3>Ultrassonografia</h3>
+          <p>A ultrassonografia veterinária é um exame de imagem não invasivo que avalia órgãos internos, gestação e
+            detecta alterações abdominais. Oferecemos ultrassom para cães e gatos com precisão e segurança.</p>
+        </div>
+        <div id="internacoes" class="tab">
+          <h3>Internações</h3>
+          <p>Oferecemos um ambiente seguro e confortável para a internação de animais que necessitam de cuidados
+            contínuos e monitoramento. Nossa equipe veterinária está preparada para tratar diversas condições,
+            garantindo o bem-estar e uma recuperação rápida do seu pet.
+          </p>
+        </div>
+        <div id="vacinas" class="tab">
+          <h3>Vacinas</h3>
+          <p>A vacinação é a forma mais eficaz de proteger seu pet contra doenças perigosas. Na nossa clínica,
+            oferecemos um cronograma de vacinação completo e personalizado para cães e gatos, seguindo os protocolos
+            mais atuais. Mantenha a saúde do seu pet em dia conosco!</p>
+        </div>
+        
+        <div id="endoscopia" class="tab">
+          <h3>Endoscopia</h3>
+          <p>É um exame fundamental para diagnosticar e remover corpos estranhos, identificar doenças inflamatórias, úlceras e tumores, e coletar material para biópsia de forma segura e precisa em cães e gatos.</p>
+        </div>
+      </div>
+    </section>
+
+    <h1 style="background-color: #bbe4ea; padding: 5rem">
+      Creche & Hotel
+    </h1>
+
+    <section class="container-petcare">
+      <div class="content-petcare">
+        <div class="left-petcare">
+          <p>Seu cachorro ama brincar e fazer novos amigos? Nossa creche para cachorro é o paraíso da diversão!
+            Oferecemos um espaço amplo e seguro, onde seu pet pode correr, explorar e socializar à vontade, sempre sob o
+            olhar atento de nossa equipe. É o local ideal para gastar energia, aprender novas brincadeiras e evitar o
+            estresse de ficar sozinho em casa. Pense na nossa creche para cães como um clube exclusivo para seu fiel
+            companheiro! <br><br>
+            E para aqueles momentos em que você precisa viajar, nosso hotel pet garante uma experiência de hospedagem
+            excepcional. Proporcionamos estadias aconchegantes e repletas de carinho, com rotinas que replicam o
+            conforto do lar. Seja para um fim de semana ou férias prolongadas, o hotel para cães da nossa unidade
+            assegura que seu bichinho terá todo o cuidado e a atenção que merece, com atividades e socialização diárias.
+            Deixe seu pet conosco e veja a felicidade dele!</p>
+
+        </div>
+        <section class="custom-slider">
+          <div class="custom-slides">
+            <div class="custom-slide"><img src="IMG/gallery/gallery1.jpg" alt="Slide 1" loading="lazy"></div>
+            <div class="custom-slide"><img src="IMG/gallery/gallery2.jpg" alt="Slide 2" loading="lazy"></div>
+            <div class="custom-slide"><img src="IMG/gallery/gallery3.jpg" alt="Slide 3" loading="lazy"></div>
+            <div class="custom-slide"><img src="IMG/gallery/gallery4.jpg" alt="Slide 4" loading="lazy"></div>
+            <div class="custom-slide"><img src="IMG/gallery/gallery5.jpg" alt="Slide 5" loading="lazy"></div>
+            <div class="custom-slide"><img src="IMG/gallery/gallery6.jpg" alt="Slide 6" loading="lazy"></div>
+          </div>
+          <div class="custom-controls">
+            <button class="custom-prev">&#10094;</button>
+            <button class="custom-next">&#10095;</button>
+          </div>
+        </section>
+    </section>
+
+
+    <h1 style="background-color: #f9c8d9; padding: 5rem" id="petshop">
+      Conheça nosso Pet Shop
+    </h1>
+
+    <section class="container-petshop">
+      <div class="p1">
+        <div class="petshop-content">
+          <h3>Banho e Tosa Profissional na Brasilândia</h3>
+          <img src="IMG/banhoetosa.jpg" alt="Banho e Tosa" loading="lazy">
+          <p>Proporcione higiene e bem-estar ao seu pet com nosso serviço de Banho e Tosa. Profissionais experientes
+            utilizam produtos de qualidade para deixar seu cão ou gato limpo, cheiroso e feliz. Agende um horário e
+            confira a excelência do cuidado da nossa equipe.</p>
+        </div>
+        <div class="petshop-content">
+          <h3>Leva e Traz para Pets na Zona Norte</h3>
+          <img src="IMG/levaetraz.png" alt="Leva e Traz" loading="lazy">
+          <p>Pensando na sua comodidade, oferecemos o serviço de Leva e Traz para Banho e Tosa! Buscamos seu pet em
+            bairros como Vila Penteado, Jardim Damasceno, Vila Souza, Jardim Elisa Maria e Jardim Peri, e o entregamos
+            de volta em segurança. Mais tempo para você, mais cuidado para ele.</p>
+        </div>
+      </div>
+      <div class="p2">
+        <div class="petshop-content">
+          <h3>Convênio Vet Vidas</h3>
+          <img src="IMG/convenio.png" alt="convenio" loading="lazy">
+          <p>Pensando no bem-estar e na saúde contínua do seu pet, a Clínica Vet Vidas oferece seu próprio plano de convênio. Essa é uma forma planejada e acessível de cuidar da saúde do seu animal de estimação, garantindo o acesso a consultas, exames e procedimentos com mais comodidade e segurança. Para mais informações sobre como aderir ao nosso convênio, entre em contato.</p>
+        </div>
+        <div class="petshop-content">
+          <h3>Acessórios Pet</h3>
+          <img src="IMG/acessorios.png" alt="Acessorios" loading="lazy">
+          <p>Seu pet merece o melhor! Descubra nossos acessórios pet de alta qualidade. Para cães, temos coleiras,
+            guias, peitorais, e brinquedos para cachorro como mordedores.
+            Para gatos, encontre arranhadores de todos os tipos, varinhas e bolinhas, além de confortáveis caminhas para
+            gatos. Oferecemos também comedouros (incluindo comedouro lento), bebedouros automáticos, e caixas de
+            transporte seguras para cães e gatos. Tudo para o bem-estar e a alegria do seu companheiro.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <h1 style="background-color: #f9c8d9; padding: 5rem">Sobre nós</h1>
+
+    <section class="container-sobre" id="quemsomos">
+      <div class="text-image-div">
+        <p>
+          A Clínica Veterinária popular VetVidas, localizada na Zona Norte de São Paulo (Av. Dep. Cantídio Sampaio,
+          559), é o seu parceiro ideal na saúde e bem-estar do seu pet. Oferecemos atendimento veterinário completo, com
+          equipe qualificada e infraestrutura moderna para cães, gatos e outros animais de estimação. Priorizamos o
+          cuidado humanizado e acessível, desde consultas de rotina, vacinação e exames, até procedimentos mais
+          complexos e cirurgias. Conte com nossos serviços de emergência, banho e tosa, e um pet shop com tudo que seu
+          melhor amigo precisa. Venha nos visitar na Vila Nova Cachoeirinha e descubra por que somos a escolha certa
+          para a saúde do seu pet em São Paulo!
+        </p>
+        <iframe src="https://www.youtube.com/embed/pixoYv17YWk"
+          title="Clínica Veterinária Vet Vidas" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="wave">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"></path>
+        </svg>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-icon">
+        <img src="IMG/Icon-VetVidas.png" alt="Logo VetVidas" />
+      </div>
+      <div class="footer-menu" id="fastmenu">
+        <h2>Menu Rápido:</h2>
+        <a href="#heropage">Topo</a>
+        <a href="#clinica">Clinica Veterinaria</a>
+        <a href="#petshop">Pet Shop</a>
+        <a href="#quemsomos">Quem Somos</a>
+      </div>
+      <div class="footer-menu">
+        <h2>Horários e Onde Estamos:</h2>
+        <p>Segunda a sábado: 24h</p>
+        <p>Domingo: 24h</p>
+        <p>Consultar horários sobre feriados</p>
+        <a href="https://www.google.com/maps/place/Clínica+Veterinária+popular+VetVidas/@-23.471678,-46.688226,15z/data=!4m10!1m2!2m1!1sClínica+Veterinária+popular+VetVidas+São+Paulo!3m6!1s0x94cef952a0123aaf:0xf56371dc4283b67f!8m2!3d-23.4716774!4d-46.6747519!15sCjFDbMOtbmljYSBWZXRlcmluw6FyaWEgcG9wdWxhciBWZXRWaWRhcyBTw6NvIFBhdWxvWjMiMWNsw61uaWNhIHZldGVyaW7DoXJpYSBwb3B1bGFyIHZldHZpZGFzIHPDo28gcGF1bG-SAQx2ZXRlcmluYXJpYW6aASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUldObU54TFZCbkVBRaoBaQoNL2cvMTFyY3RfMjU5aBABMh8QASIbTvlG62wI36cC-3IHWk_FkYKI5PvHiPVFvXfgMjUQAiIxY2zDrW5pY2EgdmV0ZXJpbsOhcmlhIHBvcHVsYXIgdmV0dmlkYXMgc8OjbyBwYXVsb-ABAPoBBQi2ARBJ!16s%2Fg%2F11rct_259h?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank">Avenida Deputado Cantídio Sampaio, 559 <br> Brasilândia - São Paulo – SP - 02860-001</a>
+      </div>
+      <div class="footer-menu" id="ctt-footer">
+        <h2>Entre em Contato:</h2>
+        <span>
+          <img src="IMG/whatsapp-icon.png" alt="WhatsApp" id="icon-menu" loading="lazy">
+          <p>Clínica: <a href="https://wa.me/5511967965063?text=Olá!+Vim+do+Site+e+quero+mais+informações! ">(11)
+              96796-5063</a></p>
+        </span>
+        <span>
+          <img src="IMG/whatsapp-icon.png" alt="WhatsApp" id="icon-menu" loading="lazy">
+          <p> Banho e tosa: <a
+              href="https://wa.me/5511910287704?text=Olá!+Vim+do+Site+e+quero+realizar+um+agendamento+de+banho+e+tosa.">(11)
+              91028-7704</a></p>
+        </span>
+        <span>
+          <img src="IMG/phone_5465772.png" alt="Telefone" id="icon-menu" loading="lazy">
+          <p>Telefone: <a href="tel:+551139810111">(11) 3981-0111</a></p>
+        </span>
+        <div class="social-media">
+          <a href="https://www.facebook.com/clinicaveterinariavetvidas" target="_blank"><img
+              src="IMG/facebook_1384053.png" alt="facebook" style="border-radius: 10px;" loading="lazy" /></a>
+          <a href="https://www.instagram.com/clinicavetvidas/" target="_blank"><img src="IMG/icon-instagram.png"
+              alt="instagram" loading="lazy" /></a>
+          <a href="https://wa.me/5511967965063?text=Olá!+Vim+do+Site+e+quero+mais+informações! " target="_blank"><img
+              src="IMG/icon-whatsapp.png" alt="WhatsApp" loading="lazy" /></a>
+        </div>
+      </div>
+      </div>
+    </footer>
+
+
+    <a href="https://wa.me/5511967965063?text=Olá!+Vim+do+Site+e+quero+mais+informações! " id="wpp-button"
+      onclick="scrolltop()" class="scrolltop" target="_blank">
+      <img src="IMG//icon-whatsapp.png" alt="WhatsApp">
+    </a>
+      <div class="developer-bar">
+    <p>
+      Desenvolvido por
+      <a
+        href="https://noffmarketing.com.br"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Noff Marketing Digital
+      </a>
+    </p>
+  </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

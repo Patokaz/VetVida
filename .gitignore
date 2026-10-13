@@ -1,0 +1,10 @@
+# Editor
+.vscode/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vídeo bruto (acima do limite de 100 MB do GitHub; o site usa o vídeo do YouTube)
+IMG/Vet Vidas.mp4
